@@ -44,7 +44,6 @@ function Create() {
         <input
           type="text"
           name="name"
-          required
           value={name}
           onChange={(event) => setName(event.target.value)}
         />
